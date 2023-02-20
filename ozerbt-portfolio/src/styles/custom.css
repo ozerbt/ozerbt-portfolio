@@ -1,0 +1,14 @@
+.animation-1{
+    animation: x 7s linear infinite alternate;
+}
+
+  @keyframes x {
+    0%, 100% {
+        transform: translateY(-16%);
+
+    }
+    50% {
+        transform: none;
+
+    }
+}
