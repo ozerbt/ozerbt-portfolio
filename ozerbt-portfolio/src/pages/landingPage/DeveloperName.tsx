@@ -1,11 +1,12 @@
 import Image from "next/image"
+import { BsGithub } from "react-icons/bs"
 import { icons } from "../utils/variables"
 
 const DeveloperName: React.FC = () => {
   return (
     <>
       <div className="flex justify-center items-center w-full md:w-[50%]">
-        <div className="w-[80%] h-[90%] relative">
+        <div className="w-[80%] h-[40%] mb-[10rem] relative">
           <div
             id="developer-name"
             className="flex flex-col w-full h-[70%] justify-center"
@@ -20,15 +21,13 @@ const DeveloperName: React.FC = () => {
             >
               Software Developer
             </h1>
+
+          </div>
+          <div >
+            <button className="button hover:scale-95 transition-all shadow-md bg-[#ffffff] pt-3 pb-3 pl-6 pr-6 md:pl-12 md:pr-12 rounded-[7px]"><span className="inline-block"><BsGithub /></span> Github</button>
           </div>
           <div>
-            <div id="icon-container" className="relative">
-              {icons.map((icon) => (
-                <div key={icon.id} className={icon.className}>
-                  <Image width={icon.width} height={icon.height} className={`animation-2 w-[20px] md:w-[50px]`} src={icon.src} alt={icon.alt} />
-                </div>
-              ))}
-            </div>
+
           </div>
         </div>
       </div>
