@@ -206,7 +206,7 @@ export const projects = [
     responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design'],
     alt: "peel9",
     link: 'https://www.peel9.com/',
-    src: "/images/peel9.jpg",
+    src: "/images/peel9.JPG",
   },
   {
     name: 'OSDP',
@@ -214,7 +214,7 @@ export const projects = [
     responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design', 'Mentorship'],
     alt: 'osdp',
     link: 'https://www.ohiosentencingdata.info/',
-    src: '/images/OSDP.jpg',
+    src: '/images/OSDP.JPG',
   },
   {
     name: 'YumAR',
@@ -222,7 +222,7 @@ export const projects = [
     responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design', 'Project Management', 'Mentorship', 'Marketing'],
     alt: 'yumAR',
     link: 'https://www.yum-ar.com/',
-    src: '/images/yumAR.jpg',
+    src: '/images/yumAR.JPG',
   },
   {
     name: 'PNI',
@@ -230,6 +230,6 @@ export const projects = [
     responsibilities: ['Frontend Development', 'UI/UX Design'],
     alt: 'pni',
     link: 'https://www.placenetworkinvestigations.com/',
-    src: '/images/pni.jpg',
+    src: '/images/pni.JPG',
   }
 ]

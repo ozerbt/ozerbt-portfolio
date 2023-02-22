@@ -11,8 +11,8 @@ const AboutMe: React.FC = () => {
                     </div>
                 </div>
                 <div className="flex flex-col mb-[4rem] md:mb-0 mt-[4rem] md:ml-[6rem] w-[90%]  h-[50%] self-center">
-                    <h1 className='md:text-[30px] text-center md:text-start font-bold'>About Me</h1>
-                    <p className="md:text-[24px] text-center md:text-start font-semibold">Passionate software developer that loves to code and contribute to disruptive technologies. Lover of coffee, mediocre cyclist, hiking enthusiast. </p>
+
+                    <p className="md:text-[24px] mt-10 text-center md:text-start font-semibold">Passionate software developer that loves to code and contribute to disruptive technologies. Lover of coffee, mediocre cyclist, hiking enthusiast. </p>
                     <a target="_blank" href="https://drive.google.com/file/d/1Pk4My_kBeI8L-xl-0c_U5MKHH3ma0mb7/view?usp=share_link" className="button hover:cursor-pointer md:w-[20%] mt-4 self-center text-center hover:scale-95 transition-all shadow-md bg-[#ffffff] pt-3 pb-3 pl-6 pr-6 md:pl-12 md:pr-12 rounded-[7px]" rel="noreferrer"><button ><span className="inline-block mr-2 pt-1"><IoNewspaperOutline /></span>Resume</button></a>
                 </div>
                 <div className="relative flex justify-center md:flex-none">
