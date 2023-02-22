@@ -222,7 +222,7 @@ export const projects = [
     responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design', 'Project Management', 'Mentorship', 'Marketing'],
     alt: 'yumAR',
     link: 'https://www.yum-ar.com/',
-    src: '/images/yumAR.JPG',
+    src: '/images/yumar.JPG',
   },
   {
     name: 'PNI',
