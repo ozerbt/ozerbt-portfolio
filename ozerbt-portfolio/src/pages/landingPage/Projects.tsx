@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import { projects } from "../utils/variables"
+import { projects } from "../../utils/variables"
 const Projects: React.FC = () => {
   return (
     <div id="projects" className="flex flex-col items-center md:flex-none w-full md:w-[60%] relative ">

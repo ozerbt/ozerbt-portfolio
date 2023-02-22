@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { frontendIcons } from "../utils/variables";
-import { toolIcons } from "../utils/variables";
-import { backendIcons } from "../utils/variables";
+import { frontendIcons } from "../../utils/variables";
+import { toolIcons } from "../../utils/variables";
+import { backendIcons } from "../../utils/variables";
 const Skills: React.FC = () => {
     return (
 
