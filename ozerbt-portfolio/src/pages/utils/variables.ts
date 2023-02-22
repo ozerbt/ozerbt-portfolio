@@ -202,22 +202,34 @@ export const toolIcons = [
 export const projects = [
   {
     name: 'Peel9',
+    description: 'Peel9 RMS & Analytics is the Solution Cops Asked For - Peel9 applications directly link people, place, vehicles, and criminal activity using information from a variety of sources.',
+    responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design'],
     alt: "peel9",
+    link: 'https://www.peel9.com/',
     src: "/images/peel9.jpg",
   },
   {
     name: 'OSDP',
+    description: 'OSDP is an enterprise web application that allows judicial members to swiftly create and manage court cases. These cases are then analyzed and evaluated to display insightful analytical information to the user.',
+    responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design', 'Mentorship'],
     alt: 'osdp',
+    link: 'https://www.ohiosentencingdata.info/',
     src: '/images/OSDP.jpg',
   },
   {
     name: 'YumAR',
+    description: 'YumAR is an augmented reality food application that displays food in a new dimension to its users. This project was started by me in early 2022 and recently is picking up pace within the restaurant industry.',
+    responsibilities: ['Frontend Development', 'Backend Development', 'Database Management', 'API Development', 'UI/UX Design', 'Project Management', 'Mentorship', 'Marketing'],
     alt: 'yumAR',
+    link: 'https://www.yum-ar.com/',
     src: '/images/yumAR.jpg',
   },
   {
     name: 'PNI',
+    description: 'Place Network Investigations (PNI) is a research group that aims to reduce violence by targeting persistent crime patterns and violent hot spots around cities.',
+    responsibilities: ['Frontend Development', 'UI/UX Design'],
     alt: 'pni',
+    link: 'https://www.placenetworkinvestigations.com/',
     src: '/images/pni.jpg',
   }
 ]
