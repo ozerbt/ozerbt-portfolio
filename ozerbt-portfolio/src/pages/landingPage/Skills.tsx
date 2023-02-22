@@ -6,7 +6,7 @@ import { backendIcons } from "../utils/variables";
 const Skills: React.FC = () => {
     return (
 
-        <div id="skills-container" className="w-full grid grid-cols-1 md:grid-cols-2 md:mt-[3rem]  mb-[3rem] h-full">
+        <div id="skills" className="w-full grid grid-cols-1 md:grid-cols-2   mb-[3rem] h-full">
 
             <div className="absolute hidden md:visible z-5 left-[100px] lg:left-[200px] bottom-[-670px] 2xl:left-[560px] md:flex justify-center ">
                 <Image width={100} height={100} className="h-full w-[100%] " src="/images/codeWindow.svg" alt="codeBackground" />
