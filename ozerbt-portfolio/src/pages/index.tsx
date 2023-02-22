@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import HeroSection from './landingPage/HeroSection'
-import Image from 'next/image'
 import Skills from './landingPage/Skills'
 import AboutMe from './landingPage/AboutMe'
 import Contact from './landingPage/Contact'
+import Footer from './landingPage/Footer'
+
 
 
 export default function Home() {
@@ -19,29 +20,13 @@ export default function Home() {
         <HeroSection />
         <Skills />
         <AboutMe />
-        <div className="flex justify-center  mb-10">
-          <h1>Contact Me!</h1>
-        </div>
-        <Contact />
-        <div className="grid grid-cols-1 h-[100px]">
-          <div className="w-full flex justify-center h-full bg-[#83FFD2]">
-            <div className="w-[50%]">
-              <div className="flex p-4 justify-center">
-                <p className="mr-10 font-semibold">Projects</p>
-                <p className="mr-10 font-semibold">Skills</p>
-                <p className="mr-10 font-semibold">About Me</p>
-                <p className="mr-10 font-semibold">Contact</p>
-              </div>
-              <div className="flex justify-center">
-                <a target="_blank" href="https://github.com/ozerbt" rel="noreferrer"><Image width={40} height={40} className="mr-[2rem]" src="/icons/GithubIcon.svg" alt="githubiconfooter" /></a>
-                <a target="_blank" href="https://www.linkedin.com/in/behcet-ozer/" rel="noreferrer"><Image width={40} height={40} src="/icons/LinkedinIcon.svg" alt="linkediniconfooter" /></a>
-              </div>
-              <div className="flex mt-3 justify-center">
-                <p className="font-semibold">@2023 Behcet Ozer</p>
-              </div>
-            </div>
+        <div className="w-full flex whitespace-nowrap justify-center">
+          <div className="flex justify-center w-[10%] border-b-2 border-[#83FFD2] text-[32px] font-bold mb-[5rem]">
+            <h1>Contact Me</h1>
           </div>
         </div>
+        <Contact />
+        <Footer />
       </main>
     </>
   )
