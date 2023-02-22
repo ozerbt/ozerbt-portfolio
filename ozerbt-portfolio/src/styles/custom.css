@@ -1,14 +1,42 @@
-.animation-1{
+.animation-1 {
     animation: x 7s linear infinite alternate;
 }
 
-  @keyframes x {
-    0%, 100% {
+@keyframes x {
+
+    0%,
+    100% {
         transform: translateY(-16%);
 
     }
+
     50% {
         transform: none;
 
     }
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: #000000;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #83FFD2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
