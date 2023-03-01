@@ -21,7 +21,7 @@ const AboutMe: React.FC = () => {
                             Whether im working on a new website or developing an innovative app, I find great satisfaction in using my skills to create something useful and impactful.
                         </p>
                     </div>
-                    <a target="_blank" href="https://drive.google.com/file/d/1Pk4My_kBeI8L-xl-0c_U5MKHH3ma0mb7/view?usp=share_link" className="button hover:cursor-pointer md:w-[50%] lg:w-[20%] mt-[2.5rem] md:mt-6 ml-10 md:ml-0 self-center text-center hover:scale-95 transition-all shadow-md bg-[#ffffff] pt-3 pb-3 pl-6 pr-6 md:pl-12 md:pr-12 rounded-[7px]" rel="noreferrer"><button ><span className="inline-block mr-2 pt-1"><IoNewspaperOutline /></span>Resume</button></a>
+                    <a target="_blank" href="https://drive.google.com/file/d/1LU2D0frd-1MAaPWHic2XiC-bnzXmGmwX/view?usp=share_link" className="button hover:cursor-pointer md:w-[50%] lg:w-[20%] mt-[2.5rem] md:mt-6 ml-10 md:ml-0 self-center text-center hover:scale-95 transition-all shadow-md bg-[#ffffff] pt-3 pb-3 pl-6 pr-6 md:pl-12 md:pr-12 rounded-[7px]" rel="noreferrer"><button ><span className="inline-block mr-2 pt-1"><IoNewspaperOutline /></span>Resume</button></a>
                 </div>
                 <div className="relative flex justify-center md:flex-none">
                     <div className="md:bg-[white]  absolute mr-5 md:mr-0 justify-center md:top-[-20px] md:right-[40px] p-2 whitespace-nowrap rounded-[10px] flex md:w-[150%]">
